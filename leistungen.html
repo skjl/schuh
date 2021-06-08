@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schuhmanufaktur Formschön</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/Logo_inverted.svg" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navigation">
+        <div class="circle"></div>
+        <a href="index.html"
+          ><img src="images/Logo.svg" alt="Logo" class="logo"
+        /></a>
+        <div class="banner-title">
+          <p><b>Schuhmanufaktur Formschön</b></p>
+          <p><b>Bad Godesberg</b></p>
+          <p>Wir lieben Leder</p>
+        </div>
+        <!--Menü Navigationspunkte-->
+        <nav>
+          <ul>
+            <div class="menu">
+              <li><a class="idle" href="index.html">Jubiläum</a></li>
+              <li>
+                <div class="dropdown active">
+                  <a class="dropbtn active" href="leistungen.html">Leistungen ▾</a>
+                  <div class="dropdown-content">
+                    <a href="leistungen.html#1">Maßschuhe</a>
+                    <a href="leistungen.html#2">Stimmen</a>
+                  </div>
+              </li>
+              <li><a class="idle" href="pflegetipps.html">Pflegetipps</a></li>
+              <li><a class="idle" href="kontakt.html">Kontakt</a></li>
+            </div>
+            <div class="burger">
+              <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+                >&#9776;</span
+              >
+            </div>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="SlideSidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a class="idle" href="index.html">Jubiläum</a>
+        <a class="active" href="leistungen.html">Leistungen</a>
+        <a class="idle sub" href="leistungen.html#1">&nbsp; · Maßschuhe</a>
+        <a class="idle sub" href="leistungen.html#2">&nbsp; · Stimmen</a>
+        <a class="idle" href="pflegetipps.html">Pflegetipps</a>
+        <a class="idle" href="kontakt.html">Kontakt</a>
+      </div>
+
+      <div class="main">
+        <!-- Leistungen -->
+        <h1 class="sec-name">Das leisten wir für Sie</h1>
+        <div class="cards">
+          <div class="card">
+            <div class="card-image img-1"></div>
+            <h3>Reparieren:</h3>
+            <p>
+              Kommen Sie mit hochwertigen Lederwaren zu uns, wenn etwas kaputt
+              ist. Wie zum Beispiel: ein eingerissener Riemen am Rucksack, ein
+              Reißverschluss an der Tasche, der sich verhakt hat, schief
+              getretene Stiefelsohlen, ein locker gewordener Schuhabsatz. Der
+              Erhalt von schönen, Ihnen lieb gewordenen Qualitätswaren ist uns
+              ein Anliegen. Wegwerfen war gestern!
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-image img-3"></div>
+            <h3>Kreieren:</h3>
+            <p>
+              Sprechen Sie uns an, wenn Sie exklusive Schuhe tragen wollen,
+              Modelle nach Ihren modischen Vorstellungen und der Eigenart Ihrer
+              Füße. <br /><br />
+              der Fertigung individueller Maßschuhe gibt es auch
+              kostengünstigere Varianten, wie etwa die Maßkonfektion mit
+              vielfältigen Wahlmöglichkeiten. Zögern Sie nicht!
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-image img-2"></div>
+            <h3>Verbessern:</h3>
+            <p>
+              Scheuen Sie sich nicht, auch mit guten, industriell gefertigten
+              Qualitätsschuhen zu uns zu kommen, wenn Sie spezielle
+              Anpassungswünsche haben. Wie zum Beispiel: Schuhe weiten,
+              Stiefelschäfte kürzen, Spezialsohlen anbringen,
+              Beinlängen-Differenz ausgleichen, Absätze erhöhen. Es ist uns
+              wichtig, dass Ihre Füße eine passgenaue Bekleidung haben.
+              Schmerzen sind vermeidbar.
+            </p>
+          </div>
+        </div>
+
+        <!-- Maßschuh -->
+        <div class="anchor" id="1"></div>
+        <h1 class="sec-name">Maßschuhe</h1>
+        <h2>Der Weg zu ihrem Maßschuh</h2>
+        <div class="massschuh">
+          <div class="schritt">
+            <p>1. Die Fußvermessung</p>
+            <img src="images/72dpi/Bild_01_72dpi.jpg" alt="" />
+          </div>
+          <div class="schritt">
+            <img src="images/72dpi/Bild_26_72dpi.jpg" alt="" />
+            <p>2. Die Auswahl von Farbe und Form</p>
+          </div>
+          <div class="schritt">
+            <p>3. Die Entscheidung fürs Leder</p>
+            <img src="images/72dpi/Bild_15_72dpi.jpg" alt="" />
+          </div>
+          <div class="schritt">
+            <img src="images/72dpi/Bild_04_72dpi.jpg" alt="" />
+            <p>4. Die Herstellung des Leistens</p>
+          </div>
+          <div class="schritt">
+            <p>5. Die Fertigung des Schuhs – Teil I</p>
+            <img src="images/72dpi/Bild_08_72dpi.jpg" alt="" />
+          </div>
+          <div class="schritt">
+            <img src="images/72dpi/Bild_30_72dpi.jpg" alt="" />
+            <p>6. Die Anprobe</p>
+          </div>
+          <div class="schritt">
+            <p>7. Die Fertigung des Schuhs – Teil II</p>
+            <img src="images/72dpi/Bild_11_72dpi.jpg" alt="" />
+          </div>
+          <div class="schritt">
+            <img src="images/72dpi/Bild_29_72dpi.jpg" alt="" />
+            <p>8. Letzte Anpassungen und Feinarbeiten</p>
+          </div>
+          <div class="text">
+            <p>
+              Der zeitliche Aufwand bei der Herstellung Ihrer individuellen
+              Maßschuhe kann beträchtlich variieren, je nach Modell, Machart und
+              Sonderwünschen. Wir rechnen mit mindestens 30 Arbeitsstunden. Der
+              gesamte Arbeitsprozess zieht sich in der Regel über acht Wochen
+              hin. <br> <br> 
+              Dreimal sind Sie in dieser Zeit gefragt: Beim Vermessen und
+              Wählen des Modells, bei einer ersten Anprobe und schließlich am
+              Tag der Fertigstellung. <br> <br>
+              Rechnen Sie pro Paar mit einem Preis
+              zwischen 2000,– und 3000,– Euro. Sobald wir einen fußgerechten
+              Leisten für Sie gefertigt haben, können wir ihn für alle
+              Nachfolgemodelle nutzen – und Sie sparen bares Geld. Damenschuhe
+              sind in der Regel aufwendiger und daher etwas teurer als Modelle
+              für den Herrn.
+            </p>
+          </div>
+        </div>
+
+        <!-- Stimmen -->
+        <div class="anchor" id="2"></div>
+        <h1 class="sec-name">Stimmen</h1>
+        <h2>Das sagen unsere Kundinnen und Kunden:</h2>
+        <div class="stimmen">
+          <p>
+            Mir kommt es aufs Preis-Leistungs-Verhältnis an. Und das stimmt bei
+            „Formschön“.
+          </p>
+
+          <p>
+            Einmal habe ich einen sehr passenden Spruch gehört: „Wer billigt
+            kauft, zahlt doppelt!“
+          </p>
+
+          <p>
+            Ich komme gerne in die Maßschuhmacherei Formschön, weil mir die
+            Atmosphäre gefällt und weil ich mich immer gut beraten fühle.
+          </p>
+
+          <p>
+            Wenn ich all diese Plastikschuhe in den üblichen Auslagen sehe,
+            denke ich: Welche Materialvergeudung! Da sind handgefertigte Schuhe
+            doch viel nachhaltiger.
+          </p>
+
+          <p>
+            Ich weiß nicht, wie viel Zeit ich immer damit vertan habe, Schuhe zu
+            finden, die mir sowohl gefielen als auch wirklich gut passten.
+            Meistens entschied ich mich dann für etwas optisch Ansprechendes und
+            nahm dafür Schmerzen an den Füßen in Kauf. Damit ist nun Schluss.
+          </p>
+
+          <p>
+            Ich bin 16 Stunden am Tag im wahrsten Sinn des Wortes auf den Füßen.
+            Und da merkt man schnell, welches Schuhwerk man trägt. Seit ich
+            einmal gemerkt habe, welchen Unterschied es macht, ob die Schuhe wie
+            angegossen passen oder nicht, ist für mich klar: Die Maßschuhe von
+            Formschön sind ihren Preis wert.
+          </p>
+
+          <p>
+            Ich hasse das Einkaufen. Und deshalb bin ich froh, dass es die
+            Schuhmanufaktur Formschön gibt. Dort weiß ich, was ich für mein Geld
+            bekomme. Außerdem hält ein Paar Maßschuhe einfach lange – und
+            erspart es mir, laufend wieder auswählen und anprobieren zu müssen.
+          </p>
+
+          <p>
+            Maßschuhe kann ich mir nicht leisten. Zum Glück habe ich ein
+            unproblematisches Paar Füße, für die ich leicht hochwertige
+            Konfektionsschuhe finde. Sie müssen zeitlos gut aussehen und aus
+            bestem Leder gefertigt sein. Dann bringe ich sie im Laufe der Jahre
+            immer mal wieder zur Schuhmanufaktur Formschön, wenn Absätze
+            repariert oder neue Sohlen aufgebracht werden müssen. Das lohnt
+            sich!
+          </p>
+        </div>
+      </div>
+
+      <footer>
+        ©Schuhmanufaktur Formschön
+        <div class="icons">
+          <ul class="icons-list"></ul>
+          <li>
+            <a href="https://www.facebook.com/"
+              ><img src="images/Icons/facebook.svg" alt="facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/"
+              ><img src="images/Icons/youtube.svg" alt="youtube"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.snapchat.com"
+              ><img src="images/Icons/snapchat.svg" alt="snapchat"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"
+              ><img src="images/Icons/instagram.svg" alt="instagram"
+            /></a>
+          </li>
+        </div>
+        <a href="kontakt.html">Impressum</a>
+      </footer>
+    </div>
+
+     <!-- Burger Funktion SideNav -->
+    <script>
+      function openNav() {
+        document.getElementById("SlideSidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("SlideSidenav").style.width = "0";
+      }
+    </script>
+  </body>
+</html>

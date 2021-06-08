@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schuhmanufaktur Formschön</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/Logo_inverted.svg" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navigation">
+        <div class="circle"></div>
+        <a href="index.html"
+          ><img src="images/Logo.svg" alt="Logo" class="logo"
+        /></a>
+        <div class="banner-title">
+          <p><b>Schuhmanufaktur Formschön</b></p>
+          <p><b>Bad Godesberg</b></p>
+          <p>Eleganz von Kopf bis Fuß</p>
+        </div>
+        <!--Menü Navigationspunkte-->
+        <nav>
+          <ul>
+            <div class="menu">
+              <li><a class="idle" href="index.html">Jubiläum</a></li>
+              <li>
+                <div class="dropdown idle">
+                  <a class="dropbtn" href="leistungen.html">Leistungen ▾</a>
+                  <div class="dropdown-content">
+                    <a href="leistungen.html#1">Maßschuhe</a>
+                    <a href="leistungen.html#2">Stimmen</a>
+                  </div>
+              </li>
+              <li><a class="idle" href="pflegetipps.html">Pflegetipps</a></li>
+              <li><a class="active" href="kontakt.html">Kontakt</a></li>
+            </div>
+            <div class="burger">
+              <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+                >&#9776;</span
+              >
+            </div>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="SlideSidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a class="idle" href="index.html">Jubiläum</a>
+        <a class="idle" href="leistungen.html">Leistungen</a>
+        <a class="idle sub" href="leistungen.html#1"> &nbsp; · Maßschuhe</a>
+        <a class="idle sub" href="leistungen.html#2">&nbsp; · Stimmen</a>
+        <a class="idle" href="pflegetipps.html">Pflegetipps</a>
+        <a class="active" href="kontakt.html">Kontakt</a>
+      </div>
+
+      <div class="main">
+        <h1 class="sec-name">Kontakt & Impressum</h1>
+        <div class="kontakt-cont">
+          <div class="infos">
+            <table class="zeiten">
+              <tr>
+                <td>
+                  Montag – Freitag <br />
+                  Samstag
+                </td>
+                <td>
+                  9<br />
+                  10
+                </td>
+                <td>
+                  – &nbsp; <br />
+                  – &nbsp;
+                </td>
+                <td>
+                  17 Uhr <br />
+                  15 Uhr
+                </td>
+              </tr>
+              <tr>
+                <td>(und nach Vereinbarung)</td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td>
+                  Schuhmanufaktur Formschön GmbH <br />
+                  Geschäftsführung: Maria Gracia und Paolo Zuretti
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  Alte Bahnhofstraße 5a <br />
+                  53173 Bonn-Bad Godesberg
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  Tel: 0228-123450 <br />
+                  Fax: 0228-123459
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  info@schuhmanufaktur-formschön.de
+                  <br />www.schuhmanufaktur-formschön.de
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  Amtsgericht Bonn, Handelsregister Nr. XXX000XXX
+                  <br />Finanzamt Bonn-Außenstadt, USt.ID: DE10111011
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2527.9139967620827!2d7.153465615739858!3d50.68442137950827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee4720971af53%3A0x64a0738947542b2d!2sAlte%20Bahnhofstra%C3%9Fe%205%2C%2053173%20Bonn!5e0!3m2!1sde!2sde!4v1622905099112!5m2!1sde!2sde"
+              style="border: 0"
+              width="500px"
+              height="530px"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        ©Schuhmanufaktur Formschön
+        <div class="icons">
+          <ul class="icons-list"></ul>
+          <li>
+            <a href="https://www.facebook.com/"
+              ><img src="images/Icons/facebook.svg" alt="facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/"
+              ><img src="images/Icons/youtube.svg" alt="youtube"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.snapchat.com"
+              ><img src="images/Icons/snapchat.svg" alt="snapchat"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"
+              ><img src="images/Icons/instagram.svg" alt="instagram"
+            /></a>
+          </li>
+        </div>
+        <a href="kontakt.html">Impressum</a>
+      </footer>
+    </div>
+
+     <!-- Burger Funktion SideNav -->
+    <script>
+      function openNav() {
+        document.getElementById("SlideSidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("SlideSidenav").style.width = "0";
+      }
+    </script>
+  </body>
+</html>

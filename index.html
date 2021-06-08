@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schuhmanufaktur Formschön</title>
+
+    <!-- Slick Slider Framework genutzt für die Slideshow -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="shortcut icon" href="images/Logo_inverted.svg" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navigation">
+        <div class="circle"></div>
+        <a href="index.html"
+          ><img src="images/Logo.svg" alt="Logo" class="logo"
+        /></a>
+        <div class="banner-title">
+          <p><b>Schuhmanufaktur Formschön</b></p>
+          <p><b>Bad Godesberg</b></p>
+          <p>Eleganz von Kopf bis Fuß</p>
+        </div>
+
+        <!--Menü Navigationspunkte-->
+        <nav>
+          <ul>
+            <div class="menu">
+              <li><a class="active" href="index.html">Jubiläum</a></li>
+              <li>
+                <div class="dropdown idle">
+                  <a class="dropbtn" href="leistungen.html">Leistungen ▾</a>
+                  <div class="dropdown-content">
+                    <a href="leistungen.html#1">Maßschuhe</a>
+                    <a href="leistungen.html#2">Stimmen</a>
+                  </div>
+                </div>
+              </li>
+              <li><a class="idle" href="pflegetipps.html">Pflegetipps</a></li>
+              <li><a class="idle" href="kontakt.html">Kontakt</a></li>
+            </div>
+            <div class="burger">
+              <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+                >&#9776;</span
+              >
+            </div>
+          </ul>
+        </nav>
+      </div>
+      <!-- Mobile Sidenav-->
+      <div id="SlideSidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a class="active" href="index.html">Jubiläum</a>
+        <a class="idle" href="leistungen.html">Leistungen</a>
+        <a class="idle sub" href="leistungen.html#1">&nbsp; · Maßschuhe</a>
+        <a class="idle sub" href="leistungen.html#2">&nbsp; · Stimmen</a>
+        <a class="idle" href="pflegetipps.html">Pflegetipps</a>
+        <a class="idle" href="kontakt.html">Kontakt</a>
+      </div>
+
+      <!-- Slider -->
+      <div class="slider">
+        <img src="images/72dpi/20_jahre.jpg" alt="" />
+        <img src="images/72dpi/Bild_33_72dpi.jpg" alt="" />
+        <img src="images/72dpi/Bild_27_72dpi.jpg" alt="" />
+        <img src="images/72dpi/Bild_30_72dpi.jpg" alt="" />
+      </div>
+      <!-- Slider End -->
+
+      <div class="main">
+        <div class="jubi">
+          <h1 class="sec-name">🎉 Feiern Sie mit uns! 🎉</h1>
+          <p>
+            September 2001 eröffneten wir Geschwister, Maria Gracia und Paolo
+            Zuretti, in Bad Godesberg unsere Schuhmanufaktur. Zuvor hatten wir
+            beide den Meisterbrief erworben und mehrere Jahre in verschiedenen
+            Berufserfahrung gesammelt. <br />
+            <br />
+            Im September 2021 feiern wir also das 20-jährige Bestehen unserer
+            Manufaktur. Wir freuen uns auf Ihren Besuch – ob online oder direkt
+            in der Alten Bahnhofstraße 5a in Bonn-Bad Godesberg.
+          </p>
+        </div>
+      </div>
+
+      <!-- Chronologie Timeline-->
+      <div class="timeline">
+        <h1 class="sec-name">Chronologie</h1>
+        <div class="timeline-item">
+          <h1>September 2001</h1>
+          <p>
+            Gemeinsam eröffnen wir Geschwister, Maria Gracia und Paolo Zuretti,
+            in Bad Godesberg unsere Schuhmanufaktur. <br />
+            Wir haben beide den Meisterbrief erworben und bereits mehrere Jahre
+            Berufserfahrung in verschiedenen Werkstätten gesammelt.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h1>September 2004</h1>
+          <p>
+            Lukas Bischoff beginnt seine Ausbildung bei uns. Heute ist er im
+            Team der Spezialist für die Schäfte-Herstellung.
+          </p>
+          <img src="images/72dpi/Bild_03_72dpi.jpg" alt="" />
+        </div>
+
+        <div class="timeline-item">
+          <h1>August 2007</h1>
+          <p>
+            Das WDR-Regionalfernsehen besucht die Manufaktur und porträtiert
+            unsere Arbeit. <br />
+            Das ist der Durchbruch: Viele potenzielle Kunden und Kundinnen
+            werden auf uns aufmerksam – nicht nur im Rheinland.
+          </p>
+          <img src="images/72dpi/Bild_07_72dpi.jpg" alt="" />
+        </div>
+
+        <div class="timeline-item">
+          <h1>Mai 2010</h1>
+          <p>
+            Neben Werkstatt und Laden eröffnen wir einen kleinen Showroom.
+            <br />
+            Hier ist eine individuelle Atmosphäre beim Maßnehmen und bei der
+            Anprobe gewährleistet.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h1>Oktober 2014</h1>
+          <p>
+            Die Schuhmanufaktur Formschön präsentiert ihre Modelle auf der
+            Leistungsschau des rheinischen Handwerks in Düsseldorf.
+          </p>
+          <img src="images/72dpi/Bild_26_72dpi.jpg" alt="" />
+        </div>
+
+        <div class="timeline-item">
+          <h1>Dezember 2015</h1>
+          <p>
+            Wir beteiligen uns an der Neuordnung des Berufs
+            „Maßschuhmacher/-in“, damit unser beruflicher Nachwuchs auf der Höhe
+            der Zeit ist.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h1>März 2016</h1>
+          <p>
+            Wir sind Gast auf der europäischen Leder- und Mode-Messe in Brüssel.
+          </p>
+          <img src="images/72dpi/Bild_34_72dpi.jpg" alt="" />
+        </div>
+
+        <div class="timeline-item">
+          <h1>Januar 2017</h1>
+          <p>
+            Das alljährliche Treffen der Maßschuhmacher aus dem
+            deutschsprachigen Raum findet diesmal bei uns, in der
+            Schuhmanufaktur Formschön, statt.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h1>Dezember 2017</h1>
+          <p>
+            Wir zeigen bei den „Tagen der Manufakturen“ in Berlin die Fertigung
+            von Maßschuhen.
+          </p>
+          <img src="images/72dpi/Bild_30_72dpi.jpg" alt="" />
+        </div>
+
+        <div class="timeline-item">
+          <h1>September 2019</h1>
+          <p>
+            Leonie Meißner beginnt bei uns die neue Ausbildung zur
+            Maßschuhmacherin.
+          </p>
+          <img src="images/72dpi/Bild_04_72dpi.jpg" alt="" />
+        </div>
+
+        <div class="timeline-item">
+          <h1>September 2021</h1>
+          <p>🎉 Wir feiern unser 20-jähriges Bestehen. 🎉</p>
+        </div>
+      </div>
+
+      <footer>
+        ©Schuhmanufaktur Formschön
+        <div class="icons">
+          <ul class="icons-list"></ul>
+          <li>
+            <a href="https://www.facebook.com/"
+              ><img src="images/Icons/facebook.svg" alt="facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/"
+              ><img src="images/Icons/youtube.svg" alt="youtube"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.snapchat.com"
+              ><img src="images/Icons/snapchat.svg" alt="snapchat"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"
+              ><img src="images/Icons/instagram.svg" alt="instagram"
+            /></a>
+          </li>
+        </div>
+        <a href="kontakt.html">Impressum</a>
+      </footer>
+    </div>
+
+    <!-- Slick Slider Script Call -->
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <!-- Slick Slider Settings -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".slider").slick({
+          autoplay: true,
+          autoplaySpeed: 3000,
+          dots: true,
+          mobileFirst: true,
+          pauseOnHover: false,
+        });
+      });
+    </script>
+
+    <!-- Burger Funktion SideNav -->
+    <script>
+      function openNav() {
+        document.getElementById("SlideSidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("SlideSidenav").style.width = "0";
+      }
+    </script>
+  </body>
+</html>

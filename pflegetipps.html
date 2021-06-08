@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schuhmanufaktur Formschön</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/Logo_inverted.svg" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="navigation">
+        <div class="circle"></div>
+        <a href="index.html"
+          ><img src="images/Logo.svg" alt="Logo" class="logo"
+        /></a>
+        <div class="banner-title">
+          <p><b>Schuhmanufaktur Formschön</b></p>
+          <p><b>Bad Godesberg</b></p>
+          <p>Ihren Füßen zuliebe</p>
+        </div>
+
+        <!--Menü Navigationspunkte-->
+        <nav>
+          <ul>
+            <div class="menu">
+              <li><a class="idle" href="index.html">Jubiläum</a></li>
+              <li>
+                <div class="dropdown idle">
+                  <a class="dropbtn" href="leistungen.html">Leistungen ▾</a>
+                  <div class="dropdown-content">
+                    <a href="leistungen.html#1">Maßschuhe</a>
+                    <a href="leistungen.html#2">Stimmen</a>
+                  </div>
+              </li>
+              <li>
+                <a class="active" href="pflegetipps.html">Pflegetipps</a>
+              </li>
+              <li><a class="idle" href="kontakt.html">Kontakt</a></li>
+            </div>
+            <div class="burger">
+              <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+                >&#9776;</span
+              >
+            </div>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="SlideSidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a class="idle" href="index.html">Jubiläum</a>
+        <a class="idle" href="leistungen.html">Leistungen</a>
+        <a class="idle sub" href="leistungen.html#1">&nbsp; · Maßschuhe</a>
+        <a class="idle sub" href="leistungen.html#2">&nbsp; · Stimmen</a>
+        <a class="active" href="pflegetipps.html">Pflegetipps</a>
+        <a class="idle" href="kontakt.html">Kontakt</a>
+      </div>
+
+      <div class="main">
+        <h1 class="sec-name">Unsere Pflegetipps:</h1>
+        <div class="tipps">
+          <p>
+            Verwenden Sie Streckleisten aus Holz und spannen Sie Ihre Schuhe
+            ein, solange sie vom Tragen noch warm und geschmeidig sind.
+          </p>
+          <p>
+            Verwenden Sie nicht jeden Tag dasselbe Paar. Gute Schuhe wollen
+            ausruhen dürfen.
+          </p>
+          <p>Bewahren Sie Schuhe in einem Schrank mit Lüftungsschlitzen auf.</p>
+          <p>
+            Pflegen Sie das Oberleder ab und zu mit einem flüssigen Reiniger.
+            Achten Sie bei Lack- und Rauleder auf spezielle Pflegemittel.
+          </p>
+          <p>
+            Stopfen Sie nass gewordene Schuhe mit Zeitungspapier aus, entfernen
+            Sie weiße Ränder mit warmem Wasser.
+          </p>
+          <p>
+            Verwenden Sie nach der Fleckenentfernung passende Pflegemittel. Wir
+            beraten Sie gerne.
+          </p>
+          <p>Entfernen Sie vor dem Pflegen die Schnürsenkel.</p>
+          <p>
+            Polieren Sie ausgiebig. Fragen Sie uns nach den richtigen Bürsten.
+          </p>
+          <p>Stecken Sie Ihre Schuhe auf Reisen in luftdurchlässige Beutel.</p>
+          <p>Verwenden Sie immer einen Schuhlöffel.</p>
+        </div>
+      </div>
+
+      <footer>
+        ©Schuhmanufaktur Formschön
+        <div class="icons">
+          <ul class="icons-list"></ul>
+          <li>
+            <a href="https://www.facebook.com/"
+              ><img src="images/Icons/facebook.svg" alt="facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/"
+              ><img src="images/Icons/youtube.svg" alt="youtube"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.snapchat.com"
+              ><img src="images/Icons/snapchat.svg" alt="snapchat"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"
+              ><img src="images/Icons/instagram.svg" alt="instagram"
+            /></a>
+          </li>
+        </div>
+        <a href="kontakt.html">Impressum</a>
+      </footer>
+    </div>
+
+     <!-- Burger Funktion SideNav -->
+    <script>
+      function openNav() {
+        document.getElementById("SlideSidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("SlideSidenav").style.width = "0";
+      }
+    </script>
+  </body>
+</html>
